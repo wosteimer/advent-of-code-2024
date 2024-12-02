@@ -14,6 +14,7 @@ func count(l []int, v int) int {
 	}
 	return result
 }
+
 func Part2(s string) int {
 	lines := strings.Split(s, "\n")
 	l1 := []int{}

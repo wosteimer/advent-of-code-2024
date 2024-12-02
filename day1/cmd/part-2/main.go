@@ -1,7 +1,7 @@
 package main
 
 import (
-	day1 "advent-of-code-2024/day-1/pkg"
+	day1 "advent-of-code-2024/day1/pkg"
 	"fmt"
 	"os"
 )

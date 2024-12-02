@@ -1,7 +1,7 @@
 package main
 
 import (
-	day1 "advent-of-code-2024/day-1/pkg"
+	day2 "advent-of-code-2024/day2/pkg"
 	"fmt"
 	"os"
 )
@@ -12,6 +12,6 @@ func main() {
 		panic(err)
 	}
 	input := string(buf)
-	result := day1.Part1(input)
+	result := day2.Part1(input)
 	fmt.Println(result)
 }
