@@ -27,6 +27,7 @@ func Part2(s string) int {
 	return result
 }
 
+// INFO: this is slow
 func is_safe_2(record []int) bool {
 	if is_safe(record) {
 		return true
