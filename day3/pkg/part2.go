@@ -16,9 +16,6 @@ func state_1(s string, n int) int {
 		}
 		if s[n:n+3] == "mul" {
 			n += 3
-			if n >= len(s) {
-				return result
-			}
 			if s[n] != '(' {
 				n += 1
 				continue
