@@ -18,7 +18,7 @@ func Part1(s string) int {
 	}
 	for _, us := range strings.Split(splited[1], "\n") {
 		is_valid := true
-		update := map_to_int(us)
+		update := parse_update(us)
 		for i, v := range update {
 			rule, ok := rules[v]
 			if !ok {
@@ -38,7 +38,7 @@ func Part1(s string) int {
 	return result
 }
 
-func map_to_int(s string) []int {
+func parse_update(s string) []int {
 	result := []int{}
 	for _, vs := range strings.Split(s, ",") {
 		v, _ := strconv.Atoi(vs)
